@@ -26,6 +26,7 @@ c. For each year, how many total medals were given out? (2pts)
 medals_p_year <- olympic |> 
   group_by(year) |> 
   summarise(all.medals = sum(total.medals, na.rm = T))
+
 7. Go to the main branch and use the same “Olympics.csv” dataset to answer the following 
 questions. Write your code in the previously created “WEEKLYEXERCISE4” R Script. 
 
